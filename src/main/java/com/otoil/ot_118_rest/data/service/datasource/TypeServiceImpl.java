@@ -1,7 +1,7 @@
-package com.otoil.ot_118_rest.service.datasource;
+package com.otoil.ot_118_rest.data.service.datasource;
 
 import com.otoil.ot_118_rest.data.entity.datasource.Type;
-import com.otoil.ot_118_rest.repository.datasource.TypeRepository;
+import com.otoil.ot_118_rest.data.repo.datasource.TypeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service("typeService")
 public class TypeServiceImpl implements TypeService {
 
+	@Autowired
     private TypeRepository typeRepository;
 
     @Transactional(readOnly = true, isolation = Isolation.REPEATABLE_READ)

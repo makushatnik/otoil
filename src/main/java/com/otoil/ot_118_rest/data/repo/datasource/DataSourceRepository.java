@@ -1,4 +1,4 @@
-package com.otoil.ot_118_rest.repository.datasource;
+package com.otoil.ot_118_rest.data.repo.datasource;
 
 import com.otoil.ot_118_rest.data.entity.datasource.DataSource;
 import org.springframework.data.repository.PagingAndSortingRepository;

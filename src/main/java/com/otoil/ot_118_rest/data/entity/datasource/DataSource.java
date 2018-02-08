@@ -29,7 +29,7 @@ public class DataSource implements Serializable {
     private String description;
 
     @Column(name = "is_actual")
-    private boolean isActual;//or isRelevant
+    private boolean isActual;
 
     @Column(name = "is_visible")
     private boolean isVisible;

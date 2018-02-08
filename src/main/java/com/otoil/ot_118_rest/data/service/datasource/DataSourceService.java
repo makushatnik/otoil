@@ -1,4 +1,4 @@
-package com.otoil.ot_118_rest.service.datasource;
+package com.otoil.ot_118_rest.data.service.datasource;
 
 import com.otoil.ot_118_rest.data.entity.datasource.DataSource;
 import org.springframework.data.domain.Page;

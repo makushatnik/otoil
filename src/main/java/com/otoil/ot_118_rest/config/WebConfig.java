@@ -130,10 +130,10 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         return messageSource;
     }
 
-    @Bean
-    public Validator jsrValidator() {
-        LocalValidatorFactoryBean factory = new LocalValidatorFactoryBean();
-        factory.setValidationMessageSource(messageSource());
-        return factory;
-    }
+//    @Bean
+//    public Validator mvcValidator() {
+//        LocalValidatorFactoryBean factory = new LocalValidatorFactoryBean();
+//        factory.setValidationMessageSource(messageSource());
+//        return factory;
+//    }
 }
